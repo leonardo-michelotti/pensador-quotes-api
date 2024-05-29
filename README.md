@@ -1,23 +1,23 @@
-# Pensador Quotes API
+## Pensador Quotes API
+This repository contains a simple web scraping API that fetches quotes from the website Pensador for a given author. The API is built using Flask and Selenium for scraping the data.
 
-Uma API RESTful em Python para buscar frases inspiradoras do site Pensador UOL. Permite a busca por autor, categoria e página, facilitando a integração com aplicações que necessitam de frases motivacionais, citações famosas e muito mais.
+## Features
+Fetches quotes by a specified author.
+Returns quotes in JSON format.
+Uses Selenium WebDriver for scraping.
+Handles SSL certificate errors by ignoring them.
 
-## Recursos
+## Technologies Used
+Python
+Flask
+Selenium WebDriver
+Chrome WebDriver Manager
 
-- **Buscar por autor:** Obtenha frases de um autor específico.
-- **Buscar por categoria:** Filtre frases por tipo (amor, amizade, motivação, etc.).
-- **Paginação:** Suporte para navegação entre páginas de resultados.
+##How to Use
+Clone the repository.
+Install the required dependencies.
+Run the Flask application.
+Use the endpoint /quotes?author=<author>&page=<page> to fetch quotes.
 
-## Tecnologias Utilizadas
-
-- Python
-- Flask
-- Selenium
-- ChromeDriver
-
-## Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/pensador-quotes-api.git
-   cd pensador-quotes-api
+#Notes
+This is my first experience developing an API. The purpose of this project is to learn and practice web scraping and API development.
