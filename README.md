@@ -13,11 +13,11 @@ Flask
 Selenium WebDriver
 Chrome WebDriver Manager
 
-##How to Use
+## How to Use
 Clone the repository.
 Install the required dependencies.
 Run the Flask application.
 Use the endpoint /quotes?author=<author>&page=<page> to fetch quotes.
 
-#Notes
+# Notes
 This is my first experience developing an API. The purpose of this project is to learn and practice web scraping and API development.
